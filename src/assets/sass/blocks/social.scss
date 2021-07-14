@@ -1,0 +1,36 @@
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social__text {
+    margin-right: 2rem;
+
+    color: $black;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.social__link {
+    margin-right: 1rem;
+
+    &:hover .social__icon {
+        fill: $black;
+    }
+}
+
+.social__icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+
+    fill: #ababab;
+
+    transition: fill .1s linear;
+
+    &--inst {
+        width: 25px;
+        height: 25px;
+    }
+
+}
