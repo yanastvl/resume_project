@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node gulpfile.js"
+    "start": "gulp default"
   },
   "author": "Yana V.S.",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^2.26.14",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
@@ -23,10 +22,10 @@
     "gulp-sass": "^4.1.0",
     "gulp-strip-css-comments": "^2.0.0",
     "gulp-uglify": "^3.0.2",
-    "panini": "^1.7.1"
-  },
-  "dependencies": {
+    "panini": "^1.7.1",
     "bootstrap": "^4.3.1",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.16.1",
     "slick-carousel": "^1.8.1"
   }
 }
