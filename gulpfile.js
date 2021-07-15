@@ -17,6 +17,7 @@ const plumber = require("gulp-plumber");
 const imagemin = require("gulp-imagemin");
 const del = require("del");
 const panini = require("panini");
+const port = process.env.PORT || 3000;
 const browsersync = require("browser-sync").create();
 
 
@@ -49,7 +50,7 @@ function browserSync(done) {
         server: {
             baseDir: "./dist/"
         },
-        port: 3000
+        port: port
     });
 }
 
