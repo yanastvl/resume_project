@@ -50,7 +50,8 @@ function browserSync(done) {
         server: {
             baseDir: "./dist/"
         },
-        port: port
+        port: port,
+        notify: false
     });
 }
 
