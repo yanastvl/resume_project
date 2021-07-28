@@ -13,7 +13,7 @@
             <div class="modal__title">Оставить заявку</div>
             <div class="modal__text">Заполните форму ниже и я свяжусь с вами в ближайшее время!</div>
 
-            <form id="emailForm" class="form" method="post">
+            <form id="emailForm" class="form" method="post" autocomplete="off">
 
                 <div class="form__group">
                     <input class="input" type="text" placeholder="Ваше имя" name="name" required>
@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="form__group">
-                    <input class="input" type="text" placeholder="Сообщение" name="message">
+                    <textarea class="input input--message" type="text" placeholder="Сообщение" name="message"></textarea>
                 </div>
 
                 <div class="row">
