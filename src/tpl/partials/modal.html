@@ -13,18 +13,22 @@
             <div class="modal__title">Оставить заявку</div>
             <div class="modal__text">Заполните форму ниже и я свяжусь с вами в ближайшее время!</div>
 
-            <form class="form" action="/" method="post">
+            <form id="emailForm" class="form" method="post">
 
                 <div class="form__group">
-                    <input class="input" type="text" placeholder="Ваше имя">
+                    <input class="input" type="text" placeholder="Ваше имя" name="name" required>
                 </div>
 
                 <div class="form__group">
-                    <input class="input" type="email" placeholder="Ваш e-mail">
+                    <input class="input" type="email" placeholder="Ваш e-mail" name="email" required>
                 </div>
 
                 <div class="form__group">
-                    <input class="input" type="tel" placeholder="Ваш телефон">
+                    <input class="input" type="tel" placeholder="Ваш телефон" name="phone" required>
+                </div>
+
+                <div class="form__group">
+                    <input class="input" type="text" placeholder="Сообщение" name="message">
                 </div>
 
                 <div class="row">
