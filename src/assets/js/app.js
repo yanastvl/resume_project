@@ -28,7 +28,7 @@ function send_email(e) {
       headers: {"X-API-Key": "test"},
       data: JSON.stringify({
           "from": email,
-          "to": "arty-a.2017@mail.ru",
+          "to": "yana955@mail.ru",
           "subject": "Сообщение из формы для портфолио",
           "text": name + '\n' + email + '\n' + phone + '\n\n' + message
         }),
