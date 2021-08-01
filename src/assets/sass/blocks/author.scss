@@ -1,7 +1,8 @@
 .author {
-    position: absolute;
-    right: 10rem;
-    bottom: 0;
+    position:absolute;
+    right:10%;
+    width:30%;
+    height:auto;
     z-index: 2;
 
     @media (max-width:$breakpoint_xl) {
