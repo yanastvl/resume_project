@@ -1,6 +1,10 @@
 .circle {
-    width: 450px;
-    height: 450px;
+    //position: absolute;
+    ////bottom: 8rem;
+    //z-index: 1;
+
+    width: 400px;
+    height: 400px;
 
     background: linear-gradient(to bottom, #771365, #060105);
     box-shadow: 0 5px 25px rgba(0, 0, 0, .15);
@@ -13,9 +17,9 @@
     bottom: 8rem;
     z-index: 1;
 
-    @media (max-width:$breakpoint_xl) {
-        right: 0;
-    }
+    //@media (max-width:$breakpoint_xl) {
+    //    right: 0;
+    //}
 
     @media (max-width:$breakpoint_sm) {
         display: none;
