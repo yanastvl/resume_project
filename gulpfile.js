@@ -19,6 +19,12 @@ const del = require("del");
 const panini = require("panini");
 const port = process.env.PORT || 3000;
 const browsersync = require("browser-sync").create();
+var ghPages = require('gulp-gh-pages');
+
+gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
+});
 
 
 /* Paths */
